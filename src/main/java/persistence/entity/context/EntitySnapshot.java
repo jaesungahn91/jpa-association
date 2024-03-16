@@ -1,8 +1,8 @@
 package persistence.entity.context;
 
-import persistence.sql.ddl.domain.Columns;
-import persistence.sql.dml.domain.Value;
-import persistence.sql.dml.domain.Values;
+import persistence.sql.ddl.Columns;
+import persistence.sql.dml.Value;
+import persistence.sql.dml.Values;
 
 import java.util.Objects;
 import java.util.stream.Collectors;

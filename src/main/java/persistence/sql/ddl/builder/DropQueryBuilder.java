@@ -1,7 +1,7 @@
-package persistence.sql.ddl;
+package persistence.sql.ddl.builder;
 
 import persistence.sql.QueryBuilder;
-import persistence.sql.ddl.domain.Table;
+import persistence.sql.ddl.Table;
 
 public class DropQueryBuilder implements QueryBuilder {
 

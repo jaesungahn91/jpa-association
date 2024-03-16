@@ -1,8 +1,9 @@
-package persistence.sql.dml;
+package persistence.sql.dml.builder;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import domain.dml.Person;
+import persistence.sql.dml.builder.UpdateQueryBuilder;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

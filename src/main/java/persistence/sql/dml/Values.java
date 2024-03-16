@@ -1,7 +1,7 @@
-package persistence.sql.dml.domain;
+package persistence.sql.dml;
 
-import persistence.sql.ddl.domain.Column;
-import persistence.sql.ddl.domain.Columns;
+import persistence.sql.ddl.Column;
+import persistence.sql.ddl.Columns;
 
 import java.lang.reflect.Field;
 import java.util.List;

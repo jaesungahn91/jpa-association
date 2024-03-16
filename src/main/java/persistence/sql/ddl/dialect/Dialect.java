@@ -1,7 +1,7 @@
 package persistence.sql.ddl.dialect;
 
-import persistence.sql.ddl.domain.Column;
-import persistence.sql.ddl.domain.Type;
+import persistence.sql.ddl.Column;
+import persistence.sql.ddl.Type;
 
 public interface Dialect {
 

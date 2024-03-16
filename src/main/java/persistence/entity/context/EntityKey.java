@@ -1,6 +1,6 @@
 package persistence.entity.context;
 
-import persistence.sql.ddl.domain.Columns;
+import persistence.sql.ddl.Columns;
 
 import java.util.Objects;
 

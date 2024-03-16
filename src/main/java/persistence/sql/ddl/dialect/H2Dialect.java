@@ -1,8 +1,8 @@
 package persistence.sql.ddl.dialect;
 
 import jakarta.persistence.GenerationType;
-import persistence.sql.ddl.domain.Column;
-import persistence.sql.ddl.domain.Type;
+import persistence.sql.ddl.Column;
+import persistence.sql.ddl.Type;
 
 import java.util.EnumMap;
 import java.util.Map;

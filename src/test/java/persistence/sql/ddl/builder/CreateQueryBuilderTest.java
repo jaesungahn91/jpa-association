@@ -1,10 +1,11 @@
-package persistence.sql.ddl;
+package persistence.sql.ddl.builder;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import domain.ddl.Person;
 import domain.ddl.Person2;
 import domain.ddl.Person3;
+import persistence.sql.ddl.builder.CreateQueryBuilder;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

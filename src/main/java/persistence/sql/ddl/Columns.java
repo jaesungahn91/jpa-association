@@ -1,7 +1,7 @@
-package persistence.sql.ddl.domain;
+package persistence.sql.ddl;
 
 import jakarta.persistence.Transient;
-import persistence.sql.dml.domain.Value;
+import persistence.sql.dml.Value;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package persistence.sql.ddl.domain;
+package persistence.sql.ddl;
 
 import java.lang.reflect.Field;
 

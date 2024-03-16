@@ -1,8 +1,8 @@
 package persistence.repository;
 
 import persistence.entity.EntityManager;
-import persistence.sql.ddl.domain.Column;
-import persistence.sql.ddl.domain.Columns;
+import persistence.sql.ddl.Column;
+import persistence.sql.ddl.Columns;
 
 public class CustomJpaRepository<T, ID> implements JpaRepository<T, ID> {
 

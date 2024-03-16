@@ -6,8 +6,8 @@ import persistence.entity.context.EntitySnapshot;
 import persistence.entity.context.EntityStatus;
 import persistence.entity.context.PersistenceContext;
 import persistence.entity.context.PersistenceContextImpl;
-import persistence.sql.ddl.domain.Columns;
-import persistence.sql.dml.domain.Value;
+import persistence.sql.ddl.Columns;
+import persistence.sql.dml.Value;
 
 import java.util.Objects;
 

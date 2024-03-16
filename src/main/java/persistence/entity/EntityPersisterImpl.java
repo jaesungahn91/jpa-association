@@ -1,9 +1,9 @@
 package persistence.entity;
 
 import jdbc.JdbcTemplate;
-import persistence.sql.dml.DeleteQueryBuilder;
-import persistence.sql.dml.InsertQueryBuilder;
-import persistence.sql.dml.UpdateQueryBuilder;
+import persistence.sql.dml.builder.DeleteQueryBuilder;
+import persistence.sql.dml.builder.InsertQueryBuilder;
+import persistence.sql.dml.builder.UpdateQueryBuilder;
 
 public class EntityPersisterImpl implements EntityPersister {
 

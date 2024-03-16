@@ -1,4 +1,4 @@
-package persistence.sql.ddl.domain;
+package persistence.sql.ddl;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

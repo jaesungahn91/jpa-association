@@ -7,8 +7,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import persistence.sql.ddl.CreateQueryBuilder;
-import persistence.sql.ddl.DropQueryBuilder;
+import persistence.sql.ddl.builder.CreateQueryBuilder;
+import persistence.sql.ddl.builder.DropQueryBuilder;
 import domain.dml.Person;
 
 import java.sql.SQLException;

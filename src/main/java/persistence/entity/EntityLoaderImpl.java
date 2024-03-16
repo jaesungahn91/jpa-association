@@ -2,7 +2,7 @@ package persistence.entity;
 
 import jdbc.GenericRowMapper;
 import jdbc.JdbcTemplate;
-import persistence.sql.dml.SelectQueryBuilder;
+import persistence.sql.dml.builder.SelectQueryBuilder;
 
 public class EntityLoaderImpl implements EntityLoader {
 

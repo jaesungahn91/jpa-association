@@ -1,7 +1,7 @@
-package persistence.sql.dml;
+package persistence.sql.dml.builder;
 
 import persistence.sql.QueryBuilder;
-import persistence.sql.ddl.domain.Table;
+import persistence.sql.ddl.Table;
 
 import java.util.List;
 
