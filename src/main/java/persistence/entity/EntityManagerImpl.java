@@ -1,11 +1,11 @@
 package persistence.entity;
 
 import jdbc.JdbcTemplate;
-import persistence.entity.domain.EntityEntry;
-import persistence.entity.domain.EntitySnapshot;
-import persistence.entity.domain.EntityStatus;
-import persistence.entity.persistence.PersistenceContext;
-import persistence.entity.persistence.PersistenceContextImpl;
+import persistence.entity.context.EntityEntry;
+import persistence.entity.context.EntitySnapshot;
+import persistence.entity.context.EntityStatus;
+import persistence.entity.context.PersistenceContext;
+import persistence.entity.context.PersistenceContextImpl;
 import persistence.sql.ddl.domain.Columns;
 import persistence.sql.dml.domain.Value;
 

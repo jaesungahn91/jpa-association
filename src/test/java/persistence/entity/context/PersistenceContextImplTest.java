@@ -1,8 +1,7 @@
-package persistence.entity.persistence;
+package persistence.entity.context;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import persistence.entity.domain.EntitySnapshot;
 import domain.dml.Person;
 
 import static org.assertj.core.api.Assertions.assertThat;

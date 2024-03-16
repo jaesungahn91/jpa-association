@@ -1,4 +1,4 @@
-package persistence.entity.domain;
+package persistence.entity.context;
 
 public enum EntityStatus {
     MANAGED,

@@ -1,7 +1,4 @@
-package persistence.entity.persistence;
-
-import persistence.entity.domain.EntityEntry;
-import persistence.entity.domain.EntitySnapshot;
+package persistence.entity.context;
 
 public interface PersistenceContext {
 

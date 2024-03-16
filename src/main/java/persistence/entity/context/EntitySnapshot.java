@@ -1,4 +1,4 @@
-package persistence.entity.domain;
+package persistence.entity.context;
 
 import persistence.sql.ddl.domain.Columns;
 import persistence.sql.dml.domain.Value;

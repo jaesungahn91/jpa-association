@@ -1,8 +1,4 @@
-package persistence.entity.persistence;
-
-import persistence.entity.domain.EntityEntry;
-import persistence.entity.domain.EntityKey;
-import persistence.entity.domain.EntitySnapshot;
+package persistence.entity.context;
 
 import java.util.HashMap;
 import java.util.Map;
