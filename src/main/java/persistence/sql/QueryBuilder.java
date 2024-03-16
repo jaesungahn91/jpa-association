@@ -16,8 +16,4 @@ public interface QueryBuilder {
 
     String build();
 
-    default boolean isNotTransientAnnotationPresent(Field field) {
-        return !field.isAnnotationPresent(Transient.class);
-    }
-
 }
