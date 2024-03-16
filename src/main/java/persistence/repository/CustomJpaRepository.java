@@ -1,5 +1,6 @@
-package persistence.entity;
+package persistence.repository;
 
+import persistence.entity.EntityManager;
 import persistence.sql.ddl.domain.Column;
 import persistence.sql.ddl.domain.Columns;
 

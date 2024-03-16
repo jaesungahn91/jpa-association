@@ -1,4 +1,4 @@
-package persistence.entity;
+package persistence.repository;
 
 import database.DatabaseServer;
 import database.H2;
@@ -7,6 +7,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import persistence.entity.EntityManager;
+import persistence.entity.EntityManagerImpl;
+import persistence.repository.CustomJpaRepository;
 import persistence.sql.ddl.CreateQueryBuilder;
 import persistence.sql.ddl.DropQueryBuilder;
 import domain.dml.Person;
