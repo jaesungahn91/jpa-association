@@ -17,7 +17,7 @@ public class EntityKey {
     public EntityKey(Object entity) {
         this.clazz = entity.getClass();
         Columns columns = new Columns(entity.getClass());
-        this.id = columns.getOriginValue(entity);
+        this.id = columns.getPKOriginValue(entity);
     }
 
     @Override

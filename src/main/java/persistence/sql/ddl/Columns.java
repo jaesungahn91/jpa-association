@@ -38,7 +38,7 @@ public class Columns {
                 .orElseThrow(() -> new IllegalArgumentException("Primary key not found."));
     }
 
-    public Object getOriginValue(Object entity) {
+    public Object getPKOriginValue(Object entity) {
         return new Value(getPrimaryKeyColumn(), entity).getOriginValue();
     }
 

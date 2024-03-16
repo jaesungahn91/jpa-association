@@ -24,7 +24,7 @@ public class CustomJpaRepository<T, ID> implements JpaRepository<T, ID> {
         Columns columns = new Columns(entity.getClass());
         Column primaryKeyColumn = columns.getPrimaryKeyColumn();
 
-        Object id = columns.getOriginValue(entity);
+        Object id = columns.getPKOriginValue(entity);
         Class<?> idType = primaryKeyColumn.getField().getType();
 
         if (!idType.isPrimitive()) {
