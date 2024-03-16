@@ -1,4 +1,4 @@
-package persistence.sql.dml.entity;
+package domain.dml;
 
 import jakarta.persistence.*;
 

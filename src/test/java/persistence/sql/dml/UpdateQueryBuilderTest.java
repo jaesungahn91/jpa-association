@@ -2,7 +2,7 @@ package persistence.sql.dml;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import persistence.sql.dml.entity.Person;
+import domain.dml.Person;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

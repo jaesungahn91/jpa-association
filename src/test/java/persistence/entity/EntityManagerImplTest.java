@@ -9,8 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import persistence.sql.ddl.CreateQueryBuilder;
 import persistence.sql.ddl.DropQueryBuilder;
-import persistence.sql.dml.InsertQueryBuilder;
-import persistence.sql.dml.entity.Person;
+import domain.dml.Person;
 
 import java.sql.SQLException;
 
